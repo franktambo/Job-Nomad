@@ -105,8 +105,8 @@ main {
 
 .job_container{
     padding: 20px;
-    background-color: #D9D9D9;
-    border: 1px solid #000;
+    background-color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 30%);
     border-radius: 5px;
     cursor: pointer;
     font-family: 'Satoshi', serif;
@@ -116,7 +116,7 @@ main {
 .job_company_logo {
     width: 100px;
     height: 100px;
-    background: #B3B3B3;
+    background: hsl(0, 0%, 80%);
     border-radius: 10px;
 }
 
@@ -128,13 +128,13 @@ main {
 } */
 
 .job_title {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     margin-top: 15px;
 }
 
 .job_company_name {
-    font-size: 16px;
+    font-size: 14px;
     color: hsl(0, 0%, 15%)
 }
 
@@ -166,4 +166,8 @@ main {
     width: 5px;
     background-color: #333;
     border-radius: 50%;
+}
+
+.job_period {
+    font-size: 14px;
 }
