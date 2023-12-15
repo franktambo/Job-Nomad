@@ -17,14 +17,16 @@
             <div class="login_description">to continue to Job Nomad</div>
             <form action="#" method="POST">
                 <div class="login_input_container">
-                    <label for="username">Email address</label>
-                    <input type="text" name="username" id="username">
+                    <label for="email">Email address</label>
+                    <input type="email" name="email" id="email" autocomplete="off">
                 </div>
                 <div class="login_input_container">
                     <label for="password">Password</label>
                     <div class="password_container">
                         <input type="password" name="password" id="password">
-                        <img src="/images/icons/eye-hide.svg" alt="eye-hide" class="eye_hide_icon">
+                        <img src="/images/icons/eye-hide.svg" alt="eye-hide" class="eye_hide">
+                        <img src="/images/icons/eye-visible.svg" alt="eye-visible" class="eye_visible">
+                        
                     </div>
                 </div>
                 <button type="submit">CONTINUE</button>
@@ -35,5 +37,7 @@
             </div>
         </div>
     </main>
+
+    <script src="/js/index.js"></script>
 </body>
 </html>

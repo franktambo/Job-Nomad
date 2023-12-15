@@ -147,10 +147,14 @@ form button {
     align-items: center;
 }
 
-.eye_hide_icon {
+.eye_hide, .eye_visible{
     width: 20px;
     height: 20px;
     cursor: pointer;
     position: absolute;
     right: 15px;
+}
+
+.eye_visible {
+    display: none;
 }
