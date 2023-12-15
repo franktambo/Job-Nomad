@@ -148,7 +148,7 @@ main {
 .job_status {
     display: relative;
     padding: 5px;
-    background: #79b4b1;
+    background: hsl(177, 28%, 69%);
     border: none;
     border-radius: 20px;
 }
