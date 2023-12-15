@@ -103,6 +103,24 @@ main {
     gap: 20px;
 }
 
+@media (max-width: 1200px) {
+    .jobs_main_container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 800px) {
+    .jobs_main_container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .jobs_main_container {
+        grid-template-columns: 1fr;
+    }
+}
+
 .job_container{
     padding: 20px;
     background-color: hsl(0, 0%, 95%);
