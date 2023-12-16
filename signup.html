@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/icons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/signup.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <header class="padding_section">
+        <a href="./home.html" class="logo">Job Nomad</a>
+    </header>
+    <div class="nav_separator"></div>
+    <main class="padding_section">
+        <div class="signup_container">
+            <div class="signup_title">Create your account</div>
+            <div class="signup_description">to continue to Job Nomad</div>
+            <form action="#" method="POST">
+                <div class="signup_input_container">
+                    <label for="name">Full name</label>
+                    <input type="text" name="name" id="name" autocomplete="off">
+                </div>
+                <div class="signup_input_container">
+                    <label for="email">Email address</label>
+                    <input type="email" name="email" id="email" autocomplete="off">
+                </div>
+                <div class="signup_input_container">
+                    <label for="password">Password</label>
+                    <div class="password_container">
+                        <input type="password" name="password" id="password">
+                        <img src="/images/icons/eye-hide.svg" alt="eye-hide" class="eye_hide">
+                        <img src="/images/icons/eye-visible.svg" alt="eye-visible" class="eye_visible">
+                        
+                    </div>
+                </div>
+                <div class="signup_input_container">
+                    <label for="confirm_pass">Confirm password</label>
+                    <div class="password_container">
+                        <input type="password" name="confirm_pass" id="confirm_pass">
+                        <img src="/images/icons/eye-hide.svg" alt="eye-hide" class="eye_hide_confirm">
+                        <img src="/images/icons/eye-visible.svg" alt="eye-visible" class="eye_visible_confirm">
+                        
+                    </div>
+                </div>
+                <button type="submit">CONTINUE</button>
+            </form>
+            <div class="login_info">
+                <div class="login_info_text">Already have an account?</div>
+                <a href="login.html" class="login_info_link">Sign in</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="/js/index.js"></script>
+</body>
+</html>

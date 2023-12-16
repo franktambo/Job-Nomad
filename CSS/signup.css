@@ -51,20 +51,21 @@ header {
     background-color: #000;
 }
 
-.login_container {
+.signup_container {
     max-width: 440px;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 60px;
     padding: 20px;
+    padding-bottom: 40px;
     font-family: 'Satoshi', serif;
 }
 
-.login_title {
+.signup_title {
     font-weight: 700;
     font-size: 28px;
 }
 
-.login_description {
+.signup_description {
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
     font-size: 15px;
@@ -76,23 +77,23 @@ form {
     margin-top: 25px;
 }
 
-.login_input_container {
+.signup_input_container {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.login_input_container label {
+.signup_input_container label {
     font-weight: 700;
     font-size: 16px;
     color: #1E1E1E;
 }
 
-.login_input_container:nth-child(2) {
+.signup_input_container:not(:first-child) {
     margin-top: 25px;
 }
 
-.login_input_container input {
+.signup_input_container input {
     width: 100%;
     padding: 10px 16px;
     border: 1px solid #000;
@@ -104,7 +105,7 @@ form {
     color: #1E1E1E;
 }
 
-.login_input_container input:focus {
+.signup_input_container input:focus {
     border: 1px solid hsl(217, 89%, 31%);
 }
 
@@ -124,20 +125,20 @@ form button {
     cursor: pointer;
 }
 
-.signup_info {
+.login_info {
     margin-top: 25px;
     display: flex;
     align-items: center;
     gap: 5px;
 }
 
-.signup_info_text {
+.login_info_text {
     font-family: 'Outfit', sans-serif;
     font-size: 15px;
     font-weight: 400;
 }
 
-.signup_info_link {
+.login_info_link {
     font-family: 'Outfit', sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -150,7 +151,7 @@ form button {
     align-items: center;
 }
 
-.eye_hide, .eye_visible{
+.eye_hide, .eye_visible, .eye_hide_confirm, .eye_visible_confirm {
     width: 20px;
     height: 20px;
     cursor: pointer;
@@ -158,6 +159,6 @@ form button {
     right: 15px;
 }
 
-.eye_visible {
+.eye_visible, .eye_visible_confirm {
     display: none;
 }
